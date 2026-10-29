@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tools/migsentry/tests", "skills"]
+pythonpath = ["tools/migsentry/src"]
+python_files = ["test_*.py"]

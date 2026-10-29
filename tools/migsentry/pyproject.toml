@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "migsentry"
+version = "0.1.0"
+description = "Scan database migrations for dangerous operations: drops, rewrites, locks — with the expand/contract alternative"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "juzorei" }]
+keywords = ["database", "migrations", "alembic", "django", "postgres", "mysql", "code-review", "agent-skills"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Database",
+]
+
+[project.urls]
+Homepage = "https://github.com/juzorei/migsentry"
+
+[project.scripts]
+migsentry = "migsentry.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

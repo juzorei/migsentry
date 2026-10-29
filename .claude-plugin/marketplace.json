@@ -1,0 +1,21 @@
+{
+  "name": "migsentry",
+  "owner": {
+    "name": "juzorei"
+  },
+  "metadata": {
+    "description": "Database migration safety review: skill + CLI that catch locking/rewrite/breaking operations before prod",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "migsentry",
+      "description": "Review Alembic/Django/Prisma migrations for table locks, rewrites and app-breaking changes; expand/contract guidance",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/migration-safety-review"
+      ]
+    }
+  ]
+}
