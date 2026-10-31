@@ -34,6 +34,16 @@ pip install migsentry
 npx skills add juzorei/migsentry
 ```
 
+## More from this portfolio
+
+Part of a series of focused skill+CLI tools by the same author:
+
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — gate the scan in CI, read failures like a triage
+- [bumpmap](https://github.com/juzorei/bumpmap) — the sibling risk: dependency upgrades
+- [hookbench](https://github.com/juzorei/hookbench) — integration tests that survive handler churn
+
+Browse the rest at the [juzorei profile](https://github.com/juzorei?tab=repositories).
+
 ## Scope
 
 Review migrations you own or are authorized to change. The advice assumes a database you can back up.

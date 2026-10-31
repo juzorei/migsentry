@@ -30,6 +30,16 @@ pip install migsentry
 npx skills add juzorei/migsentry
 ```
 
+## Ещё из портфеля
+
+Один из серии прицельных наборов «скилл + CLI» одного автора:
+
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — ставь скан в CI и разбирай падения как триаж
+- [bumpmap](https://github.com/juzorei/bumpmap) — родственный риск: обновления зависимостей
+- [hookbench](https://github.com/juzorei/hookbench) — интеграционные тесты, живущие при смене обработчиков
+
+Остальные — в [профиле juzorei](https://github.com/juzorei?tab=repositories).
+
 ## Рамки
 
 Ревью миграций, которыми ты владеешь или уполномочен менять. Советы исходят из того, что базу можно бэкапить.
